@@ -44,7 +44,7 @@ p retrieve_first_element_from_array([1, 2, 3, 4, 5])
 def retrieve_last_element_from_array(array)
   array[-1]
 end
-p retrieve_last_element_from_array
+p retrieve_last_element_from_array([1, 2, 3, 4, 5])
 
 def update_element_from_index(array, index_number, element)
   array[index_number] = element
