@@ -39,11 +39,13 @@ p retrieve_element_from_index([1, 2, 3, 4, 5], 0)
 def retrieve_first_element_from_array(array)
   array[0]
 end
+p retrieve_first_element_from_array
 
 def retrieve_last_element_from_array(array)
-  
+  array[-1]
 end
+p retrieve_last_element_from_array
 
 def update_element_from_index(array, index_number, element)
-
+  array[index_number] = element
 end
