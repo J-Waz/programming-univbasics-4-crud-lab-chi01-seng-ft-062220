@@ -34,7 +34,7 @@ p remove_element_from_start_of_array([0, 1, 2, 3, 4, 5])
 def retrieve_element_from_index(array, index_number)
   array[index_number]
 end
-p retrieve_element_from_index([1, 2, 3, 4, 5], 1)
+p retrieve_element_from_index([1, 2, 3, 4, 5], 0)
 
 def retrieve_first_element_from_array(array)
   
