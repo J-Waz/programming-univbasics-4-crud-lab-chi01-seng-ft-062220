@@ -49,3 +49,5 @@ p retrieve_last_element_from_array([1, 2, 3, 4, 5])
 def update_element_from_index(array, index_number, element)
   array[index_number] = element
 end
+
+update_element_from_index([1, 2, 3, 4, 5], 5, 6)
