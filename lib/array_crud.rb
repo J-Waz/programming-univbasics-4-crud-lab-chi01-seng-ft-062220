@@ -23,7 +23,6 @@ p add_element_to_start_of_array([2, 3, 4, 5], 1)
 
 def remove_element_from_end_of_array(array)
   removed_item = array.pop
-  p array
 end
 p remove_element_from_end_of_array([1, 2, 3, 4, 5, 6])
 
