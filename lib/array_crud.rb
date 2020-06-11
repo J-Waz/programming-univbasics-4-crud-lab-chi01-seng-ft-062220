@@ -14,7 +14,7 @@ create_an_array
 def add_element_to_end_of_array(array, element)
   array << element
 end
-add_element_to_end_of_array([1, 2, 3, 4], 5)
+p add_element_to_end_of_array([1, 2, 3, 4], 5)
 
 def add_element_to_start_of_array(array, element)
   
